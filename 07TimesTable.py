@@ -14,7 +14,7 @@ def odd(items):
     return items[1::2]
 
 
-times_table = int(input("Which times table please!!!!!!!!? "))
+times_table = int(input("Which times table? "))
 
 table = []
 for counter in range(13):
@@ -22,6 +22,8 @@ for counter in range(13):
 
 print_list(even(table), "The " + str(times_table) + " times table - even values")
 print_list(odd(table), "The " + str(times_table) + " times table - odd values")
+
+print("thanks! :)")
 
 print()
 input("Press return to continue ...")
